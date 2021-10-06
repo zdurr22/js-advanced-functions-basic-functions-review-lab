@@ -12,7 +12,7 @@ let wrapAdjective = function(string="*") {
     }
 }
 const Calculator = {
-    function add(a,b) {
+    add: (a,b) {
         return a + b;
     },
     subtract: function(a,b) {
